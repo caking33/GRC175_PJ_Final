@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content= "fruit juice, flavors, apple, health, concentrates, childcare, fresh ingredients, fruit">
+        <title>PennyJuice || Fresh Ingredients And A Rainbow Of Flavors</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;1,600&family=Open+Sans&display=swap" rel="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="style.css">
+    </head>
+    
+    <body> 
+        <div id="container">
+        <div class= "header">
+            <h1></h1></div>
+                <div class="content"></div>
+        
+<!-- Navigation-->  
+                    <div class="nav" >
+                        <a href=index.html><img class="logo" src="Images/PJ-Logo.png" alt="logo"></a>
+                        <h2>"It Makes Cents!"</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="about.html"> About</a></li>
+                            <li><a href="howto.html"> How-To-Make</a></li>
+                            <li><a href="flavors.html">Flavors</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+ <!--Nav Top-->       
+                   <div class="top">
+                        <ul>
+                            <li><a href="flavors.html"><b>Shop</b></a></li><li><b>|</b></li>
+                            <li><a href="signin.html"><b>Sign In</b></a></li><li><b>|</b></li>
+                            <li><a href="cart.html"><b>Cart</b></a></li>
+                       </ul>
+                    </div>
+        <div class="icons-top">
+                <ul>
+                    <li><a href="#"><img width= 40px src="Images/Facebook-Icon.png"></a></li>
+                    <li><a href="#"><img width= 40px src="Images/Twitter-Icon.png"></a></li>
+                    <li><a href="#"><img width= 40px src="Images/Instagram-Icon.png"></a></li>
+                    <li><a href="#"><img width= 40px src="Images/LinkedIn-Icon.png"></a></li>
+                </ul>
+            </div>
+        <div class="free-text">
+                    <p style="color: #9E005D; font-family: open sans;">Free Delivery with every Order!</p>
+        </div>
+            
+            
+<!--FAQs-->            
+            <div class="FAQ">
+                <h3>F.A.Q</h3>
+                <br>
+                <div><center><img class="about-image-banner" width="300px" src="Images/about-header-bar.png"></center></div>
+                <div class="about-text">
+                   <br>
+                    
+                    
+<button class="accordion">Where is Pennyjuice made?</button>
+<div class="panel">
+  <p>Penny Juice is made in Canada from domestic and imported ingredients.</p>
+</div>
+
+<button class="accordion">Is PennyJuice FDA approved?</button>
+<div class="panel">
+  <p>Yes! Penny Juice Products Comply With All Requirements for CACFP, Subsidy, and Nutrition Set Forth by the FDA.</p>
+</div>
+
+<button class="accordion">How many flavors?</button>
+<div class="panel">
+  <p>We provided a wide variety of 15 flavors! Check out our Flavors page to view all of them.</p>
+</div>
+    
+<button class="accordion">How do I prepare it?</button>
+<div class="panel">
+  <p>To make Penny Juice, just mix 7-parts water with 1-part of concentrate, and stir well. it’s that simple!</p>
+</div>
+    
+ <button class="accordion">Does Penny Juice need to be refrigerated?</button>
+<div class="panel">
+  <p>You do not need to refrigerate before or after opening. Store in a cool-dry place.</p>
+</div>
+    
+<button class="accordion">Minimum order?</button>
+<div class="panel">
+  <p>Minimum order is 1 case containing 6 bottles.</p>
+</div>
+                    
+    <button class="accordion">How much is shipping?</button>
+<div class="panel">
+  <p>Delivery is free! We ship nationwide.</p>
+</div>
+                    
+ <button class="accordion">What form of payments do you accept?</button>
+<div class="panel">
+  <p>We accept Discover Card, Visa, Master Card, and Paypal</p>
+</div>                    
+</div>
+    
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script> 
+                
+<style>
+.panel {
+  padding-top: 20px;
+  background-color: lavenderblush;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+                
+<div class="purplebar">
+    For more questions please <a href="contact.html"><font color="white"><u>contact us</u></font></a> 
+    </div>
+             
+                            
+<!-- Footer-->
+                
+        <div class="flex-container">
+            <div class="socials">
+                <ul>
+                    <h4>Socials</h4>
+                    <br>
+                    <li><a href="#"><img width= 40px src="Images/Facebook-Icon.png"></a>Facebook</li>
+                    <li><a href="#"><img width= 40px src="Images/Twitter-Icon.png"></a>Twitter</li>
+                    <li><a href="#"><img width= 40px src="Images/Instagram-Icon.png"></a>Instagram</li>
+                    <li><a href="#"><img width= 40px src="Images/LinkedIn-Icon.png"></a>LinkedIn</li>
+                </ul></div>
+            <div class="contact">
+                <ul>
+                    <h4>Contact</h4>
+                    <li><br>
+                        <p>Penny Juice of America
+                        <p>915 40th Ave Bettendorf, IA 52722</p>
+                        <p>pennyjuice@hotmail.com</p>
+                        <p>Phone: 563-386-1999</p>
+                    <br>
+                    </li>
+                    <li><a href="contact.html" class="Question"><u>Question?</u></a></li>    
+                </ul>    
+            </div>
+             <div class="payments">
+                <ul>
+                    <h4>Payments</h4>
+                    <br>
+                        <p>Accepted forms of payment.</p>
+                    <br>
+                    <img class= "credit-cards" width=250px src="Images/Credit-Cards.png">
+                </ul>
+            </div>
+        </div>
+         <div class="wrapper">
+                <ul>
+                    <li><a href="about.html">About |</a></li>
+                    <li><a href="howto.html">How-To-Make |</a></li>
+                    <li><a href="flavors.html">Flavors |</a></li>
+                    <li><a href="faq.html">FAQ |</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        <div class="footerbar"><img src="Images/Footer-bar.png"></div>                          
+        <div class="copyright">
+            Privacy Policy | Do Not Share My Information | Conditions of Use | Notice and Take Down Policy | Website Accessibility Policy <br>
+             © 2023 The content on this website is owned by us and our licensors. Do not copy any content (including images) without our consent.
+             </div>  
+        </div>
+                </div>
+            </div>
+        </div>                      
+    </body>
+</html>
